@@ -5,7 +5,6 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -16,6 +15,8 @@
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "jest-cli": "^23.1.0"
+    "jest-cli": "^23.1.0",
+    "react-dom": "^16.4.1",
+    "react-test-renderer": "^16.4.1"
   }
 }
