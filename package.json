@@ -18,5 +18,13 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "react-dom": "^16.4.1",
     "react-test-renderer": "^16.4.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/setupTests.js",
+      "!src/tempPolyfills.js"
+    ]
   }
 }
