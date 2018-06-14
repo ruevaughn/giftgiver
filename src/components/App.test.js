@@ -15,7 +15,6 @@ describe('App', () => {
 
   describe('when clicking the `add-gift` button', () => {
     const id = 1;
-    const twoClicks = 2;
 
     beforeEach(() => {
       // find by jsx or class name.
@@ -36,11 +35,6 @@ describe('App', () => {
 
     it('creates a Gift compontent', () => {
       expect(app.find('Gift').exists()).toBe(true);
-    });
-
-    it('increments the state gifts object properly', () => {
-      app.find('.btn-add').simulate('click');
-      expect(app.state().gifts).toEqual([{ id }, {id: twoClicks}])
     });
 
     describe('and the user wants to remove the added gift', () => {
